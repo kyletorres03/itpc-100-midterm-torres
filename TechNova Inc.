@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile Card</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Internal CSS (Requirement B) -->
+    <style>
+        article {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>TechNova Inc.</h1>
+        <p>Innovating the Future</p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <article>
+            <h2>About Us</h2>
+            <p>
+                TechNova Inc. is a forward-thinking technology company dedicated to
+                building innovative solutions that improve everyday life. We specialize
+                in software development, AI, and digital transformation.
+            </p>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 TechNova Inc.</p>
+
+        <!-- Inline CSS (Requirement C) -->
+        <button style="background-color: #007BFF; color: white; padding: 10px 15px; border: none; border-radius: 5px;">
+            Contact Us
+        </button>
+    </footer>
+
+</body>
+</html>
